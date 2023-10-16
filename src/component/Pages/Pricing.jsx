@@ -3,8 +3,8 @@ import React from "react";
 function Pricing() {
   return (
     <div>
-      <div class="header-section wf-section">
-        <div class="top-bar-header-area">
+      <div className="header-section wf-section">
+        <div className="top-bar-header-area">
           <div
             data-collapse="medium"
             data-animation="default"
@@ -12,10 +12,10 @@ function Pricing() {
             data-easing="ease"
             data-easing2="ease"
             role="banner"
-            class="navbar w-nav"
+            className="navbar w-nav"
           >
-            <div class="container w-container">
-              <a href="index.html" class="brand w-nav-brand">
+            <div className="container w-container">
+              <a href="index.html" className="brand w-nav-brand">
                 <img
                   src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61977e6d733ba184d23db8bc_interno.svg"
                   loading="lazy"
@@ -23,92 +23,92 @@ function Pricing() {
                   height=""
                 />
               </a>
-              <nav role="navigation" class="nav-menu w-nav-menu">
-                <a href="index.html" class="nav-link w-nav-link">
+              <nav role="navigation" className="nav-menu w-nav-menu">
+                <a href="index.html" className="nav-link w-nav-link">
                   Home
                 </a>
-                <a href="about-us.html" class="nav-link w-nav-link">
+                <a href="about-us.html" className="nav-link w-nav-link">
                   About Us
                 </a>
-                <a href="services.html" class="nav-link w-nav-link">
+                <a href="services.html" className="nav-link w-nav-link">
                   Services
                 </a>
                 <div
                   data-hover="true"
                   data-delay="100"
-                  class="dropdown w-dropdown"
+                  className="dropdown w-dropdown"
                 >
-                  <div class="dropdown-toggle w-dropdown-toggle">
-                    <div class="dropdown-nav-link">Pages</div>
+                  <div className="dropdown-toggle w-dropdown-toggle">
+                    <div className="dropdown-nav-link">Pages</div>
                   </div>
-                  <nav class="dropdown-list w-dropdown-list">
+                  <nav className="dropdown-list w-dropdown-list">
                     <a
                       href="our-projects.html"
-                      class="dropdown-link w-dropdown-link"
+                      className="dropdown-link w-dropdown-link"
                     >
                       Our Projects
                     </a>
                     <a
                       href="professionals.html"
                       aria-current="page"
-                      class="dropdown-link w-dropdown-link w--current"
+                      className="dropdown-link w-dropdown-link w--current"
                     >
                       Professionals
                     </a>
                     <a
                       href="services-single.html"
-                      class="dropdown-link w-dropdown-link"
+                      className="dropdown-link w-dropdown-link"
                     >
                       Services Single
                     </a>
                     <a
                       href="pricing-plan.html"
-                      class="dropdown-link w-dropdown-link"
+                      className="dropdown-link w-dropdown-link"
                     >
                       Pricing Plan
                     </a>
-                    <a href="blog.html" class="dropdown-link w-dropdown-link">
+                    <a href="blog.html" className="dropdown-link w-dropdown-link">
                       Blog
                     </a>
-                    <a href="faq.html" class="dropdown-link w-dropdown-link">
+                    <a href="faq.html" className="dropdown-link w-dropdown-link">
                       FAQ
                     </a>
                   </nav>
                 </div>
                 <a
                   href="contact-us.html"
-                  class="nav-link last-child w-nav-link"
+                  className="nav-link last-child w-nav-link"
                 >
                   Contact Us
                 </a>
               </nav>
-              <div class="menu-button w-nav-button">
-                <div class="menu-icon w-icon-nav-menu"></div>
+              <div className="menu-button w-nav-button">
+                <div className="menu-icon w-icon-nav-menu"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="banner-title-area professionals-page wf-section">
-        <div class="container w-container">
-          <div class="banner-content-wrap">
-            <h1 class="banner-title">Our Professional</h1>
-            <div class="breadcrumb-wrap">
-              <a href="index.html" class="breadcrumb-link">
+      <div className="banner-title-area professionals-page wf-section">
+        <div className="container w-container">
+          <div className="banner-content-wrap">
+            <h1 className="banner-title">Our Professional</h1>
+            <div className="breadcrumb-wrap">
+              <a href="index.html" className="breadcrumb-link">
                 Home
               </a>
-              <div class="breadcrumb-separator">/</div>
+              <div className="breadcrumb-separator">/</div>
               <div>Our Professional</div>
             </div>
           </div>
         </div>
       </div>
-      <div class="professionals-section wf-section">
-        <div class="container w-container">
-          <div class="professionals-wrap">
-            <div class="w-layout-grid professionals-grid">
-              <div class="professionals-item">
-                <div class="professionals-image">
+      <div className="professionals-section wf-section">
+        <div className="container w-container">
+          <div className="professionals-wrap">
+            <div className="w-layout-grid professionals-grid">
+              <div className="professionals-item">
+                <div className="professionals-image">
                   <img
                     src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a1f22f3d891840a3cc7e9a_team-image-one.jpg"
                     loading="lazy"
@@ -118,16 +118,16 @@ function Pricing() {
                     https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a1f22f3d891840a3cc7e9a_team-image-one.jpg        568w
                   "
                     alt="Team Member Image"
-                    class="professionals-listing-image"
+                    className="professionals-listing-image"
                   />
                 </div>
-                <div class="professionals-member-details">
-                  <h2 class="member-name">Martin Devan</h2>
-                  <div class="member-profession">Marketing Head</div>
-                  <div class="member-social-wrap">
+                <div className="professionals-member-details">
+                  <h2 className="member-name">Martin Devan</h2>
+                  <div className="member-profession">Marketing Head</div>
+                  <div className="member-social-wrap">
                     <a
                       href="https://www.facebook.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad54be059ae1efcb65b_facebook-icon.svg"
@@ -137,7 +137,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.twitter.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad61619b78575ec3366_twitter-icon.svg"
@@ -147,7 +147,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.linkedin.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad5f63889197173af30_linkedin-icon.svg"
@@ -158,8 +158,8 @@ function Pricing() {
                   </div>
                 </div>
               </div>
-              <div class="professionals-item">
-                <div class="professionals-image">
+              <div className="professionals-item">
+                <div className="professionals-image">
                   <img
                     src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a1fefa765819168f07363c_team-image-two.jpg"
                     loading="lazy"
@@ -169,16 +169,16 @@ function Pricing() {
                     https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a1fefa765819168f07363c_team-image-two.jpg        568w
                   "
                     alt="Team Member Image"
-                    class="professionals-listing-image"
+                    className="professionals-listing-image"
                   />
                 </div>
-                <div class="professionals-member-details">
-                  <h2 class="member-name">Fiona Dourif</h2>
-                  <div class="member-profession">Design Lead</div>
-                  <div class="member-social-wrap">
+                <div className="professionals-member-details">
+                  <h2 className="member-name">Fiona Dourif</h2>
+                  <div className="member-profession">Design Lead</div>
+                  <div className="member-social-wrap">
                     <a
                       href="https://www.facebook.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad54be059ae1efcb65b_facebook-icon.svg"
@@ -188,7 +188,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.twitter.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad61619b78575ec3366_twitter-icon.svg"
@@ -198,7 +198,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.linkedin.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad5f63889197173af30_linkedin-icon.svg"
@@ -209,8 +209,8 @@ function Pricing() {
                   </div>
                 </div>
               </div>
-              <div class="professionals-item">
-                <div class="professionals-image">
+              <div className="professionals-item">
+                <div className="professionals-image">
                   <img
                     src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a1fefa3d89184c52ccdebe_team-image-eight.jpg"
                     loading="lazy"
@@ -220,16 +220,16 @@ function Pricing() {
                     https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a1fefa3d89184c52ccdebe_team-image-eight.jpg        568w
                   "
                     alt="Team Member Image"
-                    class="professionals-listing-image"
+                    className="professionals-listing-image"
                   />
                 </div>
-                <div class="professionals-member-details">
-                  <h2 class="member-name">Andrew Howard</h2>
-                  <div class="member-profession">Senior Manager</div>
-                  <div class="member-social-wrap">
+                <div className="professionals-member-details">
+                  <h2 className="member-name">Andrew Howard</h2>
+                  <div className="member-profession">Senior Manager</div>
+                  <div className="member-social-wrap">
                     <a
                       href="https://www.facebook.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad54be059ae1efcb65b_facebook-icon.svg"
@@ -239,7 +239,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.twitter.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad61619b78575ec3366_twitter-icon.svg"
@@ -249,7 +249,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.linkedin.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad5f63889197173af30_linkedin-icon.svg"
@@ -260,8 +260,8 @@ function Pricing() {
                   </div>
                 </div>
               </div>
-              <div class="professionals-item">
-                <div class="professionals-image">
+              <div className="professionals-item">
+                <div className="professionals-image">
                   <img
                     src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a1fefa798f2d6d723eb2e1_team-image-three.jpg"
                     loading="lazy"
@@ -271,16 +271,16 @@ function Pricing() {
                     https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a1fefa798f2d6d723eb2e1_team-image-three.jpg        568w
                   "
                     alt="Team Member Image"
-                    class="professionals-listing-image"
+                    className="professionals-listing-image"
                   />
                 </div>
-                <div class="professionals-member-details">
-                  <h2 class="member-name">Elizabeth Debic</h2>
-                  <div class="member-profession">Senior Manager</div>
-                  <div class="member-social-wrap">
+                <div className="professionals-member-details">
+                  <h2 className="member-name">Elizabeth Debic</h2>
+                  <div className="member-profession">Senior Manager</div>
+                  <div className="member-social-wrap">
                     <a
                       href="https://www.facebook.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad54be059ae1efcb65b_facebook-icon.svg"
@@ -290,7 +290,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.twitter.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad61619b78575ec3366_twitter-icon.svg"
@@ -300,7 +300,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.linkedin.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad5f63889197173af30_linkedin-icon.svg"
@@ -311,22 +311,22 @@ function Pricing() {
                   </div>
                 </div>
               </div>
-              <div class="professionals-item">
-                <div class="professionals-image">
+              <div className="professionals-item">
+                <div className="professionals-image">
                   <img
                     src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a7091dfafd9a021777b329_team-image-ten.jpg"
                     loading="lazy"
                     alt="Team Member Image"
-                    class="professionals-listing-image"
+                    className="professionals-listing-image"
                   />
                 </div>
-                <div class="professionals-member-details">
-                  <h2 class="member-name">David Harper</h2>
-                  <div class="member-profession">Floor Designer</div>
-                  <div class="member-social-wrap">
+                <div className="professionals-member-details">
+                  <h2 className="member-name">David Harper</h2>
+                  <div className="member-profession">Floor Designer</div>
+                  <div className="member-social-wrap">
                     <a
                       href="https://www.facebook.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad54be059ae1efcb65b_facebook-icon.svg"
@@ -336,7 +336,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.twitter.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad61619b78575ec3366_twitter-icon.svg"
@@ -346,7 +346,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.linkedin.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad5f63889197173af30_linkedin-icon.svg"
@@ -357,8 +357,8 @@ function Pricing() {
                   </div>
                 </div>
               </div>
-              <div class="professionals-item">
-                <div class="professionals-image">
+              <div className="professionals-item">
+                <div className="professionals-image">
                   <img
                     src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a1fefa78986aa9135fe867_team-image-five.jpg"
                     loading="lazy"
@@ -368,16 +368,16 @@ function Pricing() {
                     https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a1fefa78986aa9135fe867_team-image-five.jpg        568w
                   "
                     alt="Team Member Image"
-                    class="professionals-listing-image"
+                    className="professionals-listing-image"
                   />
                 </div>
-                <div class="professionals-member-details">
-                  <h2 class="member-name">Zachary Austin</h2>
-                  <div class="member-profession">Gardening Planner</div>
-                  <div class="member-social-wrap">
+                <div className="professionals-member-details">
+                  <h2 className="member-name">Zachary Austin</h2>
+                  <div className="member-profession">Gardening Planner</div>
+                  <div className="member-social-wrap">
                     <a
                       href="https://www.facebook.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad54be059ae1efcb65b_facebook-icon.svg"
@@ -387,7 +387,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.twitter.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad61619b78575ec3366_twitter-icon.svg"
@@ -397,7 +397,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.linkedin.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad5f63889197173af30_linkedin-icon.svg"
@@ -408,22 +408,22 @@ function Pricing() {
                   </div>
                 </div>
               </div>
-              <div class="professionals-item">
-                <div class="professionals-image">
+              <div className="professionals-item">
+                <div className="professionals-image">
                   <img
                     src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a1fef9a2db7e33c8558996_team-image-six.jpg"
                     loading="lazy"
                     alt="Team Member Image"
-                    class="professionals-listing-image"
+                    className="professionals-listing-image"
                   />
                 </div>
-                <div class="professionals-member-details">
-                  <h2 class="member-name">Wes Chatham</h2>
-                  <div class="member-profession">Lead Designer</div>
-                  <div class="member-social-wrap">
+                <div className="professionals-member-details">
+                  <h2 className="member-name">Wes Chatham</h2>
+                  <div className="member-profession">Lead Designer</div>
+                  <div className="member-social-wrap">
                     <a
                       href="https://www.facebook.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad54be059ae1efcb65b_facebook-icon.svg"
@@ -433,7 +433,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.twitter.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad61619b78575ec3366_twitter-icon.svg"
@@ -443,7 +443,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.linkedin.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad5f63889197173af30_linkedin-icon.svg"
@@ -454,22 +454,22 @@ function Pricing() {
                   </div>
                 </div>
               </div>
-              <div class="professionals-item">
-                <div class="professionals-image">
+              <div className="professionals-item">
+                <div className="professionals-image">
                   <img
                     src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a1fefab2eb07ae773b4c13_team-image-seven.jpg"
                     loading="lazy"
                     alt="Team Member Image"
-                    class="professionals-listing-image"
+                    className="professionals-listing-image"
                   />
                 </div>
-                <div class="professionals-member-details">
-                  <h2 class="member-name">Juliet Joe</h2>
-                  <div class="member-profession">3D Designer</div>
-                  <div class="member-social-wrap">
+                <div className="professionals-member-details">
+                  <h2 className="member-name">Juliet Joe</h2>
+                  <div className="member-profession">3D Designer</div>
+                  <div className="member-social-wrap">
                     <a
                       href="https://www.facebook.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad54be059ae1efcb65b_facebook-icon.svg"
@@ -479,7 +479,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.twitter.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad61619b78575ec3366_twitter-icon.svg"
@@ -489,7 +489,7 @@ function Pricing() {
                     </a>
                     <a
                       href="https://www.linkedin.com/"
-                      class="professional-social-link w-inline-block"
+                      className="professional-social-link w-inline-block"
                     >
                       <img
                         src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad5f63889197173af30_linkedin-icon.svg"
@@ -504,26 +504,26 @@ function Pricing() {
           </div>
         </div>
       </div>
-      <div class="footer-section wf-section">
-        <div class="container w-container">
-          <div class="w-layout-grid footer-grid-wrap">
-            <div class="footer-widget-wrap">
-              <a href="index.html" class="w-inline-block">
+      <div className="footer-section wf-section">
+        <div className="container w-container">
+          <div className="w-layout-grid footer-grid-wrap">
+            <div className="footer-widget-wrap">
+              <a href="index.html" className="w-inline-block">
                 <img
                   src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61977e6d733ba184d23db8bc_interno.svg"
                   loading="lazy"
                   alt=""
-                  class="footer-logo"
+                  className="footer-logo"
                 />
               </a>
-              <p class="footer-intro-content">
+              <p className="footer-intro-content">
                 We are the leading architect and interior design firm in the
                 world.
               </p>
-              <div class="footer-social-wrap">
+              <div className="footer-social-wrap">
                 <a
                   href="#0"
-                  class="footer-social-link first-child w-inline-block"
+                  className="footer-social-link first-child w-inline-block"
                 >
                   <img
                     src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad54be059ae1efcb65b_facebook-icon.svg"
@@ -531,7 +531,7 @@ function Pricing() {
                     alt=""
                   />
                 </a>
-                <a href="#0" class="footer-social-link w-inline-block">
+                <a href="#0" className="footer-social-link w-inline-block">
                   <img
                     src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad61619b78575ec3366_twitter-icon.svg"
                     loading="lazy"
@@ -540,7 +540,7 @@ function Pricing() {
                 </a>
                 <a
                   href="https://www.linkedin.com/"
-                  class="footer-social-link w-inline-block"
+                  className="footer-social-link w-inline-block"
                 >
                   <img
                     src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad5f63889197173af30_linkedin-icon.svg"
@@ -550,7 +550,7 @@ function Pricing() {
                 </a>
                 <a
                   href="https://www.instagram.com/"
-                  class="footer-social-link w-inline-block"
+                  className="footer-social-link w-inline-block"
                 >
                   <img
                     src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad6919776715d6a83fa_instagram-icon.svg"
@@ -560,64 +560,64 @@ function Pricing() {
                 </a>
               </div>
             </div>
-            <div class="footer-widget-wrap">
-              <h2 class="footer-widget-title">Pages</h2>
-              <div class="footer-menu-links-wrap">
-                <a href="style-guide.html" class="footer-link">
+            <div className="footer-widget-wrap">
+              <h2 className="footer-widget-title">Pages</h2>
+              <div className="footer-menu-links-wrap">
+                <a href="style-guide.html" className="footer-link">
                   Style Guide
                 </a>
-                <a href="401.html" class="footer-link">
+                <a href="401.html" className="footer-link">
                   Protected
                 </a>
-                <a href="licenses.html" class="footer-link">
+                <a href="licenses.html" className="footer-link">
                   Licenses
                 </a>
-                <a href="changelog.html" class="footer-link">
+                <a href="changelog.html" className="footer-link">
                   Changelog
                 </a>
-                <a href="404.html" class="footer-link">
+                <a href="404.html" className="footer-link">
                   404
                 </a>
               </div>
             </div>
-            <div class="footer-widget-wrap">
-              <h2 class="footer-widget-title">Explore</h2>
-              <div class="footer-menu-links-wrap">
-                <a href="services.html" class="footer-link">
+            <div className="footer-widget-wrap">
+              <h2 className="footer-widget-title">Explore</h2>
+              <div className="footer-menu-links-wrap">
+                <a href="services.html" className="footer-link">
                   About Us
                 </a>
-                <a href="blog.html" class="footer-link">
+                <a href="blog.html" className="footer-link">
                   Recent Blog
                 </a>
-                <a href="pricing-plan.html" class="footer-link">
+                <a href="pricing-plan.html" className="footer-link">
                   Pricing Plan
                 </a>
-                <a href="our-projects.html" class="footer-link">
+                <a href="our-projects.html" className="footer-link">
                   Our Projects
                 </a>
-                <a href="contact-us.html" class="footer-link">
+                <a href="contact-us.html" className="footer-link">
                   Contact Us
                 </a>
               </div>
             </div>
-            <div class="footer-widget-wrap footer-widget-four">
-              <h2 class="footer-widget-title">Contact</h2>
-              <div class="footer-address-wrap">
-                <p class="footer-address">
+            <div className="footer-widget-wrap footer-widget-four">
+              <h2 className="footer-widget-title">Contact</h2>
+              <div className="footer-address-wrap">
+                <p className="footer-address">
                   53, East Birchwood Ave. Brooklyn, New York 11201, USA.
                 </p>
-                <a href="mailto:contact@interno.com" class="footer-link">
+                <a href="mailto:contact@interno.com" className="footer-link">
                   contact@interno.com
                 </a>
-                <a href="tel:(123)456-7890" class="footer-link">
+                <a href="tel:(123)456-7890" className="footer-link">
                   (123) 456 - 7890
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <div class="copyright-wrap">
-          <div class="copyright-content">
+        <div className="copyright-wrap">
+          <div className="copyright-content">
             Copyright © Interno | Designed by
             <a href="https://www.victorflow.com/">Victorflow</a> Templates -
             Powered by <a href="https://webflow.com/">Webflow</a>

@@ -1,30 +1,27 @@
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-
-import About from "./component/About";
-// import ContactUs from "./component/ContactUs";
-import Footer from "./component/Footer";
-// import Home from "./component/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Home from "./component/Home";
 import Navbar from "./component/Navbar";
-// import Service from "./component/Service";
+import About from "./component/About";
+import Contact from "./component/ContactUs";
+import Service from "./component/Service";
+import Footer from "./component/Footer";
 
 
 const App = () => {
   return (
-    <div className="App">
-      {/* <Router>
+    <>
+      <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Header />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about-us" element={<About/>} />
+          <Route path="/services" element={<Service />} />
+          <Route path="/contact-us" element={<Contact />} />
         </Routes>
-        <Footer />
-      </Router> */}
-        <Navbar/>
-      {/* <ContactUs /> */}
-      {/* <Service/> */}
-      <About/>
-      <Footer/>
-      
-    </div>
+      </Router>
+      <Footer />
+
+    </>
   );
 }
 

@@ -1,118 +1,119 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ContactUs() {
   return (
     <div>
-      <div class="banner-title-area contact-us wf-section">
-        <div class="container w-container">
-          <div class="banner-content-wrap">
-            <h1 class="banner-title">Contact Us</h1>
-            <div class="breadcrumb-wrap">
-              <a href="index.html" class="breadcrumb-link">
+      <div className="banner-title-area contact-us wf-section">
+        <div className="container w-container">
+          <div className="banner-content-wrap">
+            <h1 className="banner-title">Contact Us</h1>
+            <div className="breadcrumb-wrap">
+              <Link to="index.html" className="breadcrumb-link">
                 Home
-              </a>
-              <div class="breadcrumb-separator">/</div>
+              </Link>
+              <div className="breadcrumb-separator">/</div>
               <div>Contact Us</div>
             </div>
           </div>
         </div>
       </div>
-      <div class="contact-page-form wf-section">
-        <div class="container w-container">
-          <div class="contact-page-wrap">
-            <h2 class="section-title text-center">
+      <div className="contact-page-form wf-section">
+        <div className="container w-container">
+          <div className="contact-page-wrap">
+            <h2 className="section-title text-center">
               Reach Us to know the way to <br />
               create your Dream Interior
             </h2>
-            <div class="w-layout-grid contact-page-grid">
-              <div class="contact-detail-wrap">
-                <div class="contact-detail-item">
-                  <div class="contact-icon-wrap">
+            <div className="w-layout-grid contact-page-grid">
+              <div className="contact-detail-wrap">
+                <div className="contact-detail-item">
+                  <div className="contact-icon-wrap">
                     <img
                       src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619c8d35fa244c2bd431a603_contact-icon-one.svg"
                       loading="lazy"
                       alt="Contact Icon"
                     />
                   </div>
-                  <a href="mailto:info@yourdomain.com" class="contact-link">
+                  <Link to="mailto:info@yourdomain.com" className="contact-link">
                     info@yourdomain.com
-                  </a>
+                  </Link>
                 </div>
-                <div class="contact-detail-item">
-                  <div class="contact-icon-wrap">
+                <div className="contact-detail-item">
+                  <div className="contact-icon-wrap">
                     <img
                       src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619c8d35d8ad3f639aee4b93_contact-icon-two.svg"
                       loading="lazy"
                       alt="Contact Icon"
                     />
                   </div>
-                  <a href="tel:+1(378)400-1234" class="contact-link">
+                  <Link to="tel:+1(378)400-1234" className="contact-link">
                     +1 (378) 400-1234
-                  </a>
+                  </Link>
                 </div>
-                <div class="contact-detail-item">
-                  <div class="contact-icon-wrap">
+                <div className="contact-detail-item">
+                  <div className="contact-icon-wrap">
                     <img
                       src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619c8d35c483a1848884ce54_contact-icon-three.svg"
                       loading="lazy"
                       alt="Contact Icon"
                     />
                   </div>
-                  <a href="http://www.interno.com/" class="contact-link">
+                  <Link to="http://www.interno.com/" className="contact-link">
                     www.interno.com
-                  </a>
+                  </Link>
                 </div>
-                <div class="contact-social-wrap">
-                  <a href="#" class="contact-social-link w-inline-block">
+                <div className="contact-social-wrap">
+                  <Link to="#" className="contact-social-link w-inline-block">
                     <img
                       src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad54be059ae1efcb65b_facebook-icon.svg"
                       loading="lazy"
                       alt="Social Icon"
                     />
-                  </a>
-                  <a href="#" class="contact-social-link w-inline-block">
+                  </Link>
+                  <Link to="#" className="contact-social-link w-inline-block">
                     <img
                       src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad61619b78575ec3366_twitter-icon.svg"
                       loading="lazy"
                       alt="Social Icon"
                     />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/"
-                    class="contact-social-link w-inline-block"
+                  </Link>
+                  <Link
+                    to="https://www.linkedin.com/"
+                    className="contact-social-link w-inline-block"
                   >
                     <img
                       src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad5f63889197173af30_linkedin-icon.svg"
                       loading="lazy"
                       alt="Social Icon"
                     />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/"
-                    class="contact-social-link w-inline-block"
+                  </Link>
+                  <Link
+                    to="https://www.instagram.com/"
+                    className="contact-social-link w-inline-block"
                   >
                     <img
                       src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad6919776715d6a83fa_instagram-icon.svg"
                       loading="lazy"
                       alt="Social Icon"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
-              <div class="form-wrap">
-                <div class="form-block w-form">
+              <div className="form-wrap">
+                <div className="form-block w-form">
                   <form
                     id="wf-form-Contact-Form"
                     name="wf-form-Contact-Form"
                     data-name="Contact Form"
                     method="get"
-                    class="form-minimum-width"
+                    className="form-minimum-width"
                   >
-                    <div class="w-layout-grid contact-form-grid">
-                      <div class="input-block">
+                    <div className="w-layout-grid contact-form-grid">
+                      <div className="input-block">
                         <input
                           type="text"
-                          class="form-input-field w-input"
+                          className="form-input-field w-input"
                           maxlength="256"
                           name="name-2"
                           data-name="Name 2"
@@ -121,10 +122,10 @@ function ContactUs() {
                           required=""
                         />
                       </div>
-                      <div class="input-block">
+                      <div className="input-block">
                         <input
                           type="email"
-                          class="form-input-field w-input"
+                          className="form-input-field w-input"
                           maxlength="256"
                           name="email-2"
                           data-name="Email 2"
@@ -133,10 +134,10 @@ function ContactUs() {
                           required=""
                         />
                       </div>
-                      <div class="input-block">
+                      <div className="input-block">
                         <input
                           type="tel"
-                          class="form-input-field w-input"
+                          className="form-input-field w-input"
                           maxlength="256"
                           name="Phone-Number-2"
                           data-name="Phone Number 2"
@@ -145,10 +146,10 @@ function ContactUs() {
                           required=""
                         />
                       </div>
-                      <div class="input-block">
+                      <div className="input-block">
                         <input
                           type="text"
-                          class="form-input-field w-input"
+                          className="form-input-field w-input"
                           maxlength="256"
                           name="Subject-Field-2"
                           data-name="Subject Field 2"
@@ -158,32 +159,32 @@ function ContactUs() {
                         />
                       </div>
                     </div>
-                    <div class="form-text-area">
+                    <div className="form-text-area">
                       <textarea
                         placeholder="Hello Iam Intrested in.."
                         maxlength="5000"
                         id="field"
                         name="field"
                         data-name="Field"
-                        class="form-input-field text-area w-input"
+                        className="form-input-field text-area w-input"
                       ></textarea>
                     </div>
-                    <div class="contact-form-button-section right-align">
+                    <div className="contact-form-button-section right-align">
                       <input
                         type="submit"
                         value="Submit"
                         data-wait="Please wait..."
-                        class="button-large form-button w-button"
+                        className="button-large form-button w-button"
                       />
                     </div>
                   </form>
-                  <div class="success-message w-form-done">
-                    <div class="success-message-title">
+                  <div className="success-message w-form-done">
+                    <div className="success-message-title">
                       Thank you! Your submission has been received!
                     </div>
                   </div>
-                  <div class="error-message w-form-fail">
-                    <div class="error-message-title">
+                  <div className="error-message w-form-fail">
+                    <div className="error-message-title">
                       Oops! Something went wrong while submitting the form.
                     </div>
                   </div>

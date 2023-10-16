@@ -1977,6 +1977,7 @@ blockquote {
   padding-right: 20px;
   font-size: 20px;
   top: 11px;
+  display: block;
 }
 .container {
   max-width: 100%;
