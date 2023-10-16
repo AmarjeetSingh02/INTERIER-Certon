@@ -21,8 +21,8 @@ function About() {
         <div class="container w-container">
           <div class="intro-blockquote-wrap">
             <blockquote>
-              Your Home should tell the story of who you are, and be a
-              Collection of what you Love.
+              Experience the difference with our interior design experts and
+              transform your living space into a unique masterpiece.
             </blockquote>
           </div>
         </div>
@@ -31,12 +31,17 @@ function About() {
         <div class="container w-container">
           <div class="w-layout-grid about-grid-wrap">
             <div class="about-content-wrap">
-              <h2 class="about-heading">Initial Design</h2>
+              <h2 class="about-heading">Who We Are?</h2>
               <p class="about-content">
-                Craft design with the mind of delivering clean <br />
-                water and energy. Building iconic skyscrapers. Planning new
-                cities. Restoring damaged building Connecting people and
-                economies with roads.
+                We are more than just interior designers; we are passionate
+                storytellers who craft narratives through spaces. With a rich
+                legacy of creativity and excellence, our design studio is
+                dedicated to transforming your dreams into stunning realities.
+                Our highly skilled designers, each with a unique design
+                perspective, collaborate with you to curate spaces that reflect
+                your individuality. With our experience and a keen eye for
+                detail, we embark on every project with the goal of turning the
+                ordinary into the extraordinary.
               </p>
               <a href="services.html" class="button w-button">
                 Our Concept
@@ -59,11 +64,19 @@ function About() {
               id="w-node-_0594dbd2-a01d-5eba-8907-55f79f074083-25594337"
               class="about-content-wrap left-spacing"
             >
-              <h2 class="about-heading">The End Result</h2>
+              <h2 class="about-heading">Why Choose Us?</h2>
               <p class="about-content">
-                With more than 3,500 active clients, we work across the global
-                economy. Our clients are remarkably diverse: large and small,
-                private and public, for-profit and nonprofit.
+                Choose us for your interior design needs, and you'll gain access
+                to a team of seasoned designers who specialize in delivering
+                excellence. We take pride in completing projects promptly, with
+                a successful track record of over 100 completed projects. Our
+                creative process begins with design concepts and mood boards,
+                setting the tone for a personalized touch in every space. We
+                assure you excellent finishing, guided by a budget-friendly
+                approach, without compromising on quality. Our commitment to
+                quality extends to thorough inspections and a warranty, with
+                ongoing maintenance for a worry-free experience. With us, your
+                ideal interior design comes to life seamlessly.
               </p>
               <a href="services-single.html" class="button w-button">
                 Explore More
@@ -404,7 +417,6 @@ function About() {
           </div>
         </div>
       </div>
-
     </div>
   );
 }
