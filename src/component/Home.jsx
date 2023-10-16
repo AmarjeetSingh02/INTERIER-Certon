@@ -1,409 +1,844 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div>
-      <div class="header-section wf-section">
-        <div class="top-bar-header-area">
-          <div
-            data-collapse="medium"
-            data-animation="default"
-            data-duration="400"
-            data-easing="ease"
-            data-easing2="ease"
-            role="banner"
-            class="navbar w-nav"
-          >
-            <div class="container w-container">
-              <a href="index.html" class="brand w-nav-brand">
-                <img
-                  src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61977e6d733ba184d23db8bc_interno.svg"
-                  loading="lazy"
-                  alt="Doctorate Logo"
-                  height=""
-                />
-              </a>
-              <nav role="navigation" class="nav-menu w-nav-menu">
-                <a href="index.html" class="nav-link w-nav-link">
-                  Home
-                </a>
-                <a href="about-us.html" class="nav-link w-nav-link">
-                  About Us
-                </a>
-                <a href="services.html" class="nav-link w-nav-link">
-                  Services
-                </a>
-                <div
-                  data-hover="true"
-                  data-delay="100"
-                  class="dropdown w-dropdown"
-                >
-                  <div class="dropdown-toggle w-dropdown-toggle">
-                    <div class="dropdown-nav-link">Pages</div>
-                  </div>
-                  <nav class="dropdown-list w-dropdown-list">
-                    <a
-                      href="our-projects.html"
-                      class="dropdown-link w-dropdown-link"
-                    >
-                      Our Projects
-                    </a>
-                    <a
-                      href="professionals.html"
-                      class="dropdown-link w-dropdown-link"
-                    >
-                      Professionals
-                    </a>
-                    <a
-                      href="services-single.html"
-                      class="dropdown-link w-dropdown-link"
-                    >
-                      Services Single
-                    </a>
-                    <a
-                      href="pricing-plan.html"
-                      class="dropdown-link w-dropdown-link"
-                    >
-                      Pricing Plan
-                    </a>
-                    <a href="blog.html" class="dropdown-link w-dropdown-link">
-                      Blog
-                    </a>
-                    <a href="faq.html" class="dropdown-link w-dropdown-link">
-                      FAQ
-                    </a>
-                  </nav>
-                </div>
-                <a
-                  href="contact-us.html"
-                  aria-current="page"
-                  class="nav-link last-child w-nav-link w--current"
-                >
-                  Contact Us
-                </a>
-              </nav>
-              <div class="menu-button w-nav-button">
-                <div class="menu-icon w-icon-nav-menu"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="banner-title-area contact-us wf-section">
-        <div class="container w-container">
-          <div class="banner-content-wrap">
-            <h1 class="banner-title">Contact Us</h1>
-            <div class="breadcrumb-wrap">
-              <a href="index.html" class="breadcrumb-link">
-                Home
-              </a>
-              <div class="breadcrumb-separator">/</div>
-              <div>Contact Us</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="contact-page-form wf-section">
-        <div class="container w-container">
-          <div class="contact-page-wrap">
-            <h2 class="section-title text-center">
-              Reach Us to know the way to <br />
-              create your Dream Interior
-            </h2>
-            <div class="w-layout-grid contact-page-grid">
-              <div class="contact-detail-wrap">
-                <div class="contact-detail-item">
-                  <div class="contact-icon-wrap">
-                    <img
-                      src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619c8d35fa244c2bd431a603_contact-icon-one.svg"
-                      loading="lazy"
-                      alt="Contact Icon"
-                    />
-                  </div>
-                  <a href="mailto:info@yourdomain.com" class="contact-link">
-                    info@yourdomain.com
-                  </a>
-                </div>
-                <div class="contact-detail-item">
-                  <div class="contact-icon-wrap">
-                    <img
-                      src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619c8d35d8ad3f639aee4b93_contact-icon-two.svg"
-                      loading="lazy"
-                      alt="Contact Icon"
-                    />
-                  </div>
-                  <a href="tel:+1(378)400-1234" class="contact-link">
-                    +1 (378) 400-1234
-                  </a>
-                </div>
-                <div class="contact-detail-item">
-                  <div class="contact-icon-wrap">
-                    <img
-                      src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619c8d35c483a1848884ce54_contact-icon-three.svg"
-                      loading="lazy"
-                      alt="Contact Icon"
-                    />
-                  </div>
-                  <a href="http://www.interno.com/" class="contact-link">
-                    www.interno.com
-                  </a>
-                </div>
-                <div class="contact-social-wrap">
-                  <a href="#" class="contact-social-link w-inline-block">
-                    <img
-                      src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad54be059ae1efcb65b_facebook-icon.svg"
-                      loading="lazy"
-                      alt="Social Icon"
-                    />
-                  </a>
-                  <a href="#" class="contact-social-link w-inline-block">
-                    <img
-                      src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad61619b78575ec3366_twitter-icon.svg"
-                      loading="lazy"
-                      alt="Social Icon"
-                    />
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/"
-                    class="contact-social-link w-inline-block"
-                  >
-                    <img
-                      src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad5f63889197173af30_linkedin-icon.svg"
-                      loading="lazy"
-                      alt="Social Icon"
-                    />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/"
-                    class="contact-social-link w-inline-block"
-                  >
-                    <img
-                      src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad6919776715d6a83fa_instagram-icon.svg"
-                      loading="lazy"
-                      alt="Social Icon"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="form-wrap">
-                <div class="form-block w-form">
-                  <form
-                    id="wf-form-Contact-Form"
-                    name="wf-form-Contact-Form"
-                    data-name="Contact Form"
-                    method="get"
-                    class="form-minimum-width"
-                  >
-                    <div class="w-layout-grid contact-form-grid">
-                      <div class="input-block">
-                        <input
-                          type="text"
-                          class="form-input-field w-input"
-                          maxlength="256"
-                          name="name-2"
-                          data-name="Name 2"
-                          placeholder="Name"
-                          id="name-2"
-                          required=""
-                        />
-                      </div>
-                      <div class="input-block">
-                        <input
-                          type="email"
-                          class="form-input-field w-input"
-                          maxlength="256"
-                          name="email-2"
-                          data-name="Email 2"
-                          placeholder="Email"
-                          id="email-2"
-                          required=""
-                        />
-                      </div>
-                      <div class="input-block">
-                        <input
-                          type="tel"
-                          class="form-input-field w-input"
-                          maxlength="256"
-                          name="Phone-Number-2"
-                          data-name="Phone Number 2"
-                          placeholder="Phone"
-                          id="Phone-Number-2"
-                          required=""
-                        />
-                      </div>
-                      <div class="input-block">
-                        <input
-                          type="text"
-                          class="form-input-field w-input"
-                          maxlength="256"
-                          name="Subject-Field-2"
-                          data-name="Subject Field 2"
-                          placeholder="Subject"
-                          id="Subject-Field-2"
-                          required=""
-                        />
-                      </div>
-                    </div>
-                    <div class="form-text-area">
-                      <textarea
-                        placeholder="Hello Iam Intrested in.."
-                        maxlength="5000"
-                        id="field"
-                        name="field"
-                        data-name="Field"
-                        class="form-input-field text-area w-input"
-                      ></textarea>
-                    </div>
-                    <div class="contact-form-button-section right-align">
-                      <input
-                        type="submit"
-                        value="Submit"
-                        data-wait="Please wait..."
-                        class="button-large form-button w-button"
-                      />
-                    </div>
-                  </form>
-                  <div class="success-message w-form-done">
-                    <div class="success-message-title">
-                      Thank you! Your submission has been received!
-                    </div>
-                  </div>
-                  <div class="error-message w-form-fail">
-                    <div class="error-message-title">
-                      Oops! Something went wrong while submitting the form.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-section wf-section">
-        <div class="container w-container">
-          <div class="w-layout-grid footer-grid-wrap">
-            <div class="footer-widget-wrap">
-              <a href="index.html" class="w-inline-block">
-                <img
-                  src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61977e6d733ba184d23db8bc_interno.svg"
-                  loading="lazy"
-                  alt=""
-                  class="footer-logo"
-                />
-              </a>
-              <p class="footer-intro-content">
-                We are the leading architect and interior design firm in the
-                world.
+    <>
+      <div className="hero-section">
+        <div className="hero-content-wrap">
+          <div className="container w-container">
+            <div className="hero-content-area">
+              <h1 className="hero-wrap-title">
+                Creating Spaces Where Memories are Made
+                <br />
+              </h1>
+              <p className="hero-wrap-description">
+                Combining beauty with functionality for
+                <br />
+                spaces that work for you.
               </p>
-              <div class="footer-social-wrap">
-                <a
-                  href="#0"
-                  class="footer-social-link first-child w-inline-block"
-                >
-                  <img
-                    src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad54be059ae1efcb65b_facebook-icon.svg"
-                    loading="lazy"
-                    alt=""
-                  />
-                </a>
-                <a href="#0" class="footer-social-link w-inline-block">
-                  <img
-                    src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad61619b78575ec3366_twitter-icon.svg"
-                    loading="lazy"
-                    alt=""
-                  />
-                </a>
-                <a
-                  href="https://www.linkedin.com/"
-                  class="footer-social-link w-inline-block"
-                >
-                  <img
-                    src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad5f63889197173af30_linkedin-icon.svg"
-                    loading="lazy"
-                    alt=""
-                  />
-                </a>
-                <a
-                  href="https://www.instagram.com/"
-                  class="footer-social-link w-inline-block"
-                >
-                  <img
-                    src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/6198cad6919776715d6a83fa_instagram-icon.svg"
-                    loading="lazy"
-                    alt=""
-                  />
-                </a>
-              </div>
+              <Link to="about-us" className="button banner-button w-button">
+                Get Started
+              </Link>
             </div>
-            <div class="footer-widget-wrap">
-              <h2 class="footer-widget-title">Pages</h2>
-              <div class="footer-menu-links-wrap">
-                <a href="style-guide.html" class="footer-link">
-                  Style Guide
-                </a>
-                <a href="401.html" class="footer-link">
-                  Protected
-                </a>
-                <a href="licenses.html" class="footer-link">
-                  Licenses
-                </a>
-                <a href="changelog.html" class="footer-link">
-                  Changelog
-                </a>
-                <a href="404.html" class="footer-link">
-                  404
-                </a>
-              </div>
-            </div>
-            <div class="footer-widget-wrap">
-              <h2 class="footer-widget-title">Explore</h2>
-              <div class="footer-menu-links-wrap">
-                <a href="services.html" class="footer-link">
-                  About Us
-                </a>
-                <a href="blog.html" class="footer-link">
-                  Recent Blog
-                </a>
-                <a href="pricing-plan.html" class="footer-link">
-                  Pricing Plan
-                </a>
-                <a href="our-projects.html" class="footer-link">
-                  Our Projects
-                </a>
-                <a
-                  href="contact-us.html"
-                  aria-current="page"
-                  class="footer-link w--current"
-                >
-                  Contact Us
-                </a>
-              </div>
-            </div>
-            <div class="footer-widget-wrap footer-widget-four">
-              <h2 class="footer-widget-title">Contact</h2>
-              <div class="footer-address-wrap">
-                <p class="footer-address">
-                  53, East Birchwood Ave. Brooklyn, New York 11201, USA.
-                </p>
-                <a href="mailto:contact@interno.com" class="footer-link">
-                  contact@interno.com
-                </a>
-                <a href="tel:(123)456-7890" class="footer-link">
-                  (123) 456 - 7890
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="copyright-wrap">
-          <div class="copyright-content">
-            Copyright © Interno | Designed by
-            <a href="https://www.victorflow.com/">Victorflow</a> Templates -
-            Powered by <a href="https://webflow.com/">Webflow</a>
           </div>
         </div>
       </div>
-    </div>
+      <div className="service-section">
+        <div className="container w-container">
+          <div className="service-content-wrap">
+            <div className="w-layout-grid service-grid-wrap">
+              <div className="service-item">
+                <h2 className="service-title">High-Quality Materials</h2>
+                <p className="service-content">
+                  We use only the quality materials to ensure your design stands
+                  the test of time.
+                </p>
+                <Link href="#" className="simple-link w-inline-block">
+                  <p className="simple-link-text">View More</p>
+                  <img
+                    src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619b2cdd72361885cd9000fb_service-link-icon.svg"
+                    loading="lazy"
+                    alt="Readmore Icon"
+                    className="simple-link-icon"
+                  />
+                </Link>
+              </div>
+              <div className="service-item">
+                <h2 className="service-title">Budget Management</h2>
+                <p className="service-content">
+                  A smart approach to ensure your dream design fits within your
+                  budget.
+                </p>
+                <Link
+                  to="services-single"
+                  className="simple-link w-inline-block"
+                >
+                  <p className="simple-link-text">View More</p>
+                  <img
+                    src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619b2cdd72361885cd9000fb_service-link-icon.svg"
+                    loading="lazy"
+                    alt="Readmore Icon"
+                    className="simple-link-icon"
+                  />
+                </Link>
+              </div>
+              <div className="service-item">
+                <h2 className="service-title">Personalized Service</h2>
+                <p className="service-content">
+                  We believe in your distinctive vision, and we're here to make
+                  it a reality.
+                </p>
+                <a
+                  href="services-single.html"
+                  className="simple-link w-inline-block"
+                >
+                  <p className="simple-link-text">View More</p>
+                  <img
+                    src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619b2cdd72361885cd9000fb_service-link-icon.svg"
+                    loading="lazy"
+                    alt="Readmore Icon"
+                    className="simple-link-icon"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="intro-section">
+        <div className="container w-container">
+          <div className="w-layout-grid intro-grid-wrap">
+            <div className="intro-content-wrap">
+              <h2 className="intro-section-title">Where Style and Comfort Meet</h2>
+              <p className="intro-content">
+                Your home is your canvas, and we are the artists that bring your
+                vision to life. Our interior design services are all about
+                elevating your living space to new heights of elegance and
+                perfect style. We understand that every room tells a unique
+                story, and we craft these stories with an expert eye for detail.
+                From careful chosen color palettes to the placement of each
+                piece of furniture, we ensure that your space reflects your
+                personality.
+              </p>
+              <div className="intro-quick-link-wrap">
+                <div className="intro-icon-wrap">
+                  <img
+                    src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619b38c59b20f18156d7e10d_intro-call.svg"
+                    loading="lazy"
+                    alt="Call Icon"
+                  />
+                </div>
+                <div className="intro-call-wrap">
+                  <Link href="tel:012345678" className="call-link">
+                    012345678
+                  </Link>
+                  <p>Call Us Anytime</p>
+                </div>
+              </div>
+              <Link href="contact-us.html" className="button w-button">
+                Get Free Estimate
+              </Link>
+            </div>
+            <img
+              src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/619b30656e76565ea79f29e5_intro-image.jpg"
+              loading="lazy"
+              alt="Intro"
+              className="right-radius-image"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="testimonial-section">
+        <div className="container w-container">
+          <div className="testimonial-content-wrap">
+            <h2 className="section-title text-center">
+              What People Think
+              <br />
+              About Interno
+            </h2>
+            <div className="w-layout-grid testimonial-grid">
+              <div className="testimonial-item">
+                <div className="testimonial-detail">
+                  <div className="testimonial-image-wrap">
+                    <img
+                      src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a5d70ad9b5876274e17016_client-image-1.jpg"
+                      loading="lazy"
+                      alt="Testimonial"
+                      className="testimonial-client"
+                    />
+                    <div className="client-detail">
+                      <h3 className="client-name">Lisa Clairton</h3>
+                      <div className="client-location">New York, USA</div>
+                    </div>
+                  </div>
+                  <p className="testimonial-content">
+                    We selected Interno interior because of rigorous design
+                    background &amp; education.
+                  </p>
+                </div>
+              </div>
+              <div className="testimonial-item">
+                <div className="testimonial-detail">
+                  <div className="testimonial-image-wrap">
+                    <img
+                      src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a5d70a4d252373e66ee1cb_client-image-3.jpg"
+                      loading="lazy"
+                      alt="Testimonial"
+                      className="testimonial-client"
+                    />
+                    <div className="client-detail">
+                      <h3 className="client-name">David Knight</h3>
+                      <div className="client-location">Sydney, Australia</div>
+                    </div>
+                  </div>
+                  <p className="testimonial-content">
+                    The team exceeded our expectations and emerged as leaders of
+                    our project’s.
+                  </p>
+                </div>
+              </div>
+              <div className="testimonial-item">
+                <div className="testimonial-detail">
+                  <div className="testimonial-image-wrap">
+                    <img
+                      src="../uploads-ssl.webflow.com/6194e0af852e05a5be106504/61a5d70a990fade56fd885a7_client-image-2.jpg"
+                      loading="lazy"
+                      alt="Testimonial"
+                      className="testimonial-client"
+                    />
+                    <div className="client-detail">
+                      <h3 className="client-name">Lisa Clairton</h3>
+                      <div className="client-location">Paris, France</div>
+                    </div>
+                  </div>
+                  <p className="testimonial-content">
+                    They balanced the architectural vision and the project
+                    realities beautifully.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="clients-section">
+        <div className="container w-container">
+          <div className="w-layout-grid client-gird-wrap">
+            <div
+              id="w-node-cc80d0cd-42e4-2620-442a-514667d49987-b3106505"
+              className="client-image-wrap"
+            >
+              <img
+                src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619b50dbaf38fe2e294e77c4_client-logo-1.svg"
+                loading="lazy"
+                alt="Client Logo"
+              />
+            </div>
+            <div
+              id="w-node-fad25dac-b525-0be8-6116-100ca22118f1-b3106505"
+              className="client-image-wrap"
+            >
+              <img
+                src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619b50db6a5ad2b2e8220095_client-logo-2.svg"
+                loading="lazy"
+                alt="Client Logo"
+              />
+            </div>
+            <div
+              id="w-node-_2e6c85e4-0f13-3f54-32df-ab30b216b927-b3106505"
+              className="client-image-wrap"
+            >
+              <img
+                src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619b50db3b3a6aece9a31f5e_client-logo-3.svg"
+                loading="lazy"
+                alt="Client Logo"
+              />
+            </div>
+            <div
+              id="w-node-_6b7d40ec-6f15-dc63-fcf5-11633ff702f4-b3106505"
+              className="client-image-wrap"
+            >
+              <img
+                src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619b50db1409585a01100743_client-logo-4.svg"
+                loading="lazy"
+                alt="Client Logo"
+              />
+            </div>
+            <div
+              id="w-node-be48fccd-aa9d-2b76-d979-45623f925cd5-b3106505"
+              className="client-image-wrap"
+            >
+              <img
+                src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619b50dbc57d3e3e8b8ed401_client-logo-5.svg"
+                loading="lazy"
+                alt="Client Logo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="project-listing-wrap home-page-projects">
+        <div className="container w-container">
+          <div className="section-title-wrap">
+            <h2 className="section-title center-small-space">Recent Projects</h2>
+            <p className="section-title-content">
+              With tools to make every part of your process more human and a
+              support team <br />
+              excited to help you, getting started with us never been easier.
+            </p>
+          </div>
+          <div className="project-items home-page-projects">
+            <div className="w-dyn-list">
+              <div role="list" className="w-dyn-items w-row">
+                <div role="listitem" className="w-dyn-item w-col w-col-6">
+                  <div className="project-item">
+                    <a
+                      href="project/winery-dry-creek-building.html"
+                      className="project-link-block w-inline-block"
+                    >
+                      <img
+                        src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dcfbe7008298f5887664_project-image-1.jpg"
+                        loading="lazy"
+                        alt="Project"
+                        sizes="(max-width: 479px) 87vw, (max-width: 767px) 90vw, (max-width: 1279px) 46vw, 590px"
+                        srcset="
+                        https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dcfbe7008298f5887664_project-image-1-p-500.jpeg 500w,
+                        https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dcfbe7008298f5887664_project-image-1.jpg        580w
+                      "
+                        className="project-listing-image"
+                      />
+                    </a>
+                    <div className="project-listing-details">
+                      <div className="project-title-wrap">
+                        <a
+                          href="project/winery-dry-creek-building.html"
+                          className="project-title-link w-inline-block"
+                        >
+                          <h2 className="project-title">
+                            Winery Dry Creek Building
+                          </h2>
+                        </a>
+                        <a
+                          href="project-categories/art-modern.html"
+                          className="project-category-link"
+                        >
+                          Art Modern
+                        </a>
+                      </div>
+                      <div className="project-readmore">
+                        <a
+                          href="project/winery-dry-creek-building.html"
+                          className="project-single-link w-inline-block"
+                        >
+                          <img
+                            src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                            loading="lazy"
+                            alt="Readmore Arrow"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div role="listitem" className="w-dyn-item w-col w-col-6">
+                  <div className="project-item">
+                    <a
+                      href="project/creative-workplace-design.html"
+                      className="project-link-block w-inline-block"
+                    >
+                      <img
+                        src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd05b4f9a181178c70b9_project-image-2.jpg"
+                        loading="lazy"
+                        alt="Project"
+                        sizes="(max-width: 479px) 87vw, (max-width: 767px) 90vw, (max-width: 1279px) 46vw, 590px"
+                        srcset="
+                        https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd05b4f9a181178c70b9_project-image-2-p-500.jpeg 500w,
+                        https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd05b4f9a181178c70b9_project-image-2.jpg        580w
+                      "
+                        className="project-listing-image"
+                      />
+                    </a>
+                    <div className="project-listing-details">
+                      <div className="project-title-wrap">
+                        <a
+                          href="project/creative-workplace-design.html"
+                          className="project-title-link w-inline-block"
+                        >
+                          <h2 className="project-title">
+                            Creative Workplace Design
+                          </h2>
+                        </a>
+                        <a
+                          href="project-categories/minimalist.html"
+                          className="project-category-link"
+                        >
+                          Minimalist
+                        </a>
+                      </div>
+                      <div className="project-readmore">
+                        <a
+                          href="project/creative-workplace-design.html"
+                          className="project-single-link w-inline-block"
+                        >
+                          <img
+                            src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                            loading="lazy"
+                            alt="Readmore Arrow"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div role="listitem" className="w-dyn-item w-col w-col-6">
+                  <div className="project-item">
+                    <a
+                      href="project/bedroom-interior-pot-work.html"
+                      className="project-link-block w-inline-block"
+                    >
+                      <img
+                        src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd10e8f59f8f8287319f_project-image-3.jpg"
+                        loading="lazy"
+                        alt="Project"
+                        sizes="(max-width: 479px) 87vw, (max-width: 767px) 90vw, (max-width: 1279px) 46vw, 590px"
+                        srcset="
+                        https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd10e8f59f8f8287319f_project-image-3-p-500.jpeg 500w,
+                        https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd10e8f59f8f8287319f_project-image-3.jpg        580w
+                      "
+                        className="project-listing-image"
+                      />
+                    </a>
+                    <div className="project-listing-details">
+                      <div className="project-title-wrap">
+                        <a
+                          href="project/bedroom-interior-pot-work.html"
+                          className="project-title-link w-inline-block"
+                        >
+                          <h2 className="project-title">
+                            Bedroom Interior Pot Work
+                          </h2>
+                        </a>
+                        <a
+                          href="project-categories/modern.html"
+                          className="project-category-link"
+                        >
+                          Modern
+                        </a>
+                      </div>
+                      <div className="project-readmore">
+                        <a
+                          href="project/bedroom-interior-pot-work.html"
+                          className="project-single-link w-inline-block"
+                        >
+                          <img
+                            src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                            loading="lazy"
+                            alt="Readmore Arrow"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div role="listitem" className="w-dyn-item w-col w-col-6">
+                  <div className="project-item">
+                    <a
+                      href="project/light-ambience-sepia-design.html"
+                      className="project-link-block w-inline-block"
+                    >
+                      <img
+                        src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd203305d3906782aa29_project-image-4.jpg"
+                        loading="lazy"
+                        alt="Project"
+                        sizes="(max-width: 479px) 87vw, (max-width: 767px) 90vw, (max-width: 1279px) 46vw, 590px"
+                        srcset="
+                        https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd203305d3906782aa29_project-image-4-p-500.jpeg 500w,
+                        https://uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1dd203305d3906782aa29_project-image-4.jpg        580w
+                      "
+                        className="project-listing-image"
+                      />
+                    </a>
+                    <div className="project-listing-details">
+                      <div className="project-title-wrap">
+                        <a
+                          href="project/light-ambience-sepia-design.html"
+                          className="project-title-link w-inline-block"
+                        >
+                          <h2 className="project-title">
+                            Light Ambience Sepia Design
+                          </h2>
+                        </a>
+                        <a
+                          href="project-categories/scandinavian.html"
+                          className="project-category-link"
+                        >
+                          Scandinavian
+                        </a>
+                      </div>
+                      <div className="project-readmore">
+                        <a
+                          href="project/light-ambience-sepia-design.html"
+                          className="project-single-link w-inline-block"
+                        >
+                          <img
+                            src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                            loading="lazy"
+                            alt="Readmore Arrow"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="counter-section">
+        <div className="container w-container">
+          <div className="w-layout-grid counter-grid-wrap">
+            <div className="counter-item">
+              <h3 className="count-number">12</h3>
+              <p className="counter-title">Years Of Experiance</p>
+            </div>
+            <div className="counter-item">
+              <h3 className="count-number">5K</h3>
+              <p className="counter-title">Success Project</p>
+            </div>
+            <div className="counter-item">
+              <h3 className="count-number">1K</h3>
+              <p className="counter-title">Active Project</p>
+            </div>
+            <div className="counter-item counter-last-child">
+              <h3 className="count-number">4K</h3>
+              <p className="counter-title">Happy Customers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="blog-section">
+        <div className="container w-container">
+          <div className="section-title-wrap">
+            <h2 className="section-title center-small-space">Recent Blogs</h2>
+            <p className="section-title-content">
+              Get updates about our latest trends and techniques used in
+              <br />
+              interior design project works.
+            </p>
+          </div>
+          <div className="blog-wrap home-page-blog">
+            <div className="w-dyn-list">
+              <div role="list" className="w-dyn-items w-row">
+                <div
+                  role="listitem"
+                  className="blog-collection-item w-dyn-item w-col w-col-4"
+                >
+                  <div
+                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                    className="blog-item"
+                  >
+                    <div className="blog-image-wrap">
+                      <a
+                        href="post/residential-interior-designer-in-new-york-usa.html"
+                        className="blog-image-link w-inline-block"
+                      >
+                        <img
+                          src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1bd92c0eccd5cd71645fc_blog-image-small-1.jpg"
+                          loading="lazy"
+                          alt="Blog"
+                          className="blog-listing-image"
+                        />
+                      </a>
+                      <a
+                        href="category/kitchen-design.html"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Kitchen Design</div>
+                      </a>
+                    </div>
+                    <a
+                      href="post/residential-interior-designer-in-new-york-usa.html"
+                      className="w-inline-block"
+                    >
+                      <h2 className="blog-title">
+                        Residential Interior Designer In New York, USA
+                      </h2>
+                    </a>
+                    <div className="blog-item-meta">
+                      <p className="blog-date">November 23, 2021</p>
+                      <a
+                        style={{"backgroundColor": "rgb(244, 240, 236)"}}
+                        href="post/residential-interior-designer-in-new-york-usa.html"
+                        className="blog-single-link w-inline-block"
+                      >
+                        <img
+                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                          loading="lazy"
+                          alt="Readmore Arrow"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  role="listitem"
+                  className="blog-collection-item w-dyn-item w-col w-col-4"
+                >
+                  <div
+                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                    className="blog-item"
+                  >
+                    <div className="blog-image-wrap">
+                      <a
+                        href="post/how-to-choose-the-best-wall-art-decor-house.html"
+                        className="blog-image-link w-inline-block"
+                      >
+                        <img
+                          src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1bdadb2eb07c93e396d9e_blog-image-small-2.jpg"
+                          loading="lazy"
+                          alt="Blog"
+                          className="blog-listing-image"
+                        />
+                      </a>
+                      <a
+                        href="category/living-room.html"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Living Room</div>
+                      </a>
+                    </div>
+                    <a
+                      href="post/how-to-choose-the-best-wall-art-decor-house.html"
+                      className="w-inline-block"
+                    >
+                      <h2 className="blog-title">
+                        How To Choose The Best Wall Art &amp; Decor House?
+                      </h2>
+                    </a>
+                    <div className="blog-item-meta">
+                      <p className="blog-date">November 23, 2021</p>
+                      <a
+                        style={{"backgroundColor": "rgb(244, 240, 236)"}}
+                        href="post/how-to-choose-the-best-wall-art-decor-house.html"
+                        className="blog-single-link w-inline-block"
+                      >
+                        <img
+                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                          loading="lazy"
+                          alt="Readmore Arrow"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  role="listitem"
+                  className="blog-collection-item w-dyn-item w-col w-col-4"
+                >
+                  <div
+                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                    className="blog-item"
+                  >
+                    <div className="blog-image-wrap">
+                      <a
+                        href="post/tips-to-increase-the-interior-value-of-your-house.html"
+                        className="blog-image-link w-inline-block"
+                      >
+                        <img
+                          src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1bdc5798f2d3af13d1966_blog-image-small-3.jpg"
+                          loading="lazy"
+                          alt="Blog "
+                          className="blog-listing-image"
+                        />
+                      </a>
+                      <a
+                        href="category/minimalist-interior.html"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Minimalist Interior</div>
+                      </a>
+                    </div>
+                    <a
+                      href="post/tips-to-increase-the-interior-value-of-your-house.html"
+                      className="w-inline-block"
+                    >
+                      <h2 className="blog-title">
+                        Tips To Increase The Interior Value Of Your House
+                      </h2>
+                    </a>
+                    <div className="blog-item-meta">
+                      <p className="blog-date">November 23, 2021</p>
+                      <a
+                        style={{"backgroundColor": "rgb(244, 240, 236)"}}
+                        href="post/tips-to-increase-the-interior-value-of-your-house.html"
+                        className="blog-single-link w-inline-block"
+                      >
+                        <img
+                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                          loading="lazy"
+                          alt="Readmore Arrow"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  role="listitem"
+                  className="blog-collection-item w-dyn-item w-col w-col-4"
+                >
+                  <div
+                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                    className="blog-item"
+                  >
+                    <div className="blog-image-wrap">
+                      <a
+                        href="post/best-solution-for-any-office-business-interior.html"
+                        className="blog-image-link w-inline-block"
+                      >
+                        <img
+                          src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1bddb4a0a5378ab7d1199_blog-image-small-4.jpg"
+                          loading="lazy"
+                          alt="Blog "
+                          className="blog-listing-image"
+                        />
+                      </a>
+                      <a
+                        href="category/kitchen-design.html"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Kitchen Design</div>
+                      </a>
+                    </div>
+                    <a
+                      href="post/best-solution-for-any-office-business-interior.html"
+                      className="w-inline-block"
+                    >
+                      <h2 className="blog-title">
+                        Best Solution For Any Office &amp; Business Interior
+                      </h2>
+                    </a>
+                    <div className="blog-item-meta">
+                      <p className="blog-date">November 23, 2021</p>
+                      <a
+                        style={{"backgroundColor": "rgb(244, 240, 236)"}}
+                        href="post/best-solution-for-any-office-business-interior.html"
+                        className="blog-single-link w-inline-block"
+                      >
+                        <img
+                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                          loading="lazy"
+                          alt="Readmore Arrow"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  role="listitem"
+                  className="blog-collection-item w-dyn-item w-col w-col-4"
+                >
+                  <div
+                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                    className="blog-item"
+                  >
+                    <div className="blog-image-wrap">
+                      <a
+                        href="post/get-solution-for-building-construction-work-.html"
+                        className="blog-image-link w-inline-block"
+                      >
+                        <img
+                          src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1bdf7191af40ae1c06fca_blog-image-small-5.jpg"
+                          loading="lazy"
+                          alt="Blog"
+                          className="blog-listing-image"
+                        />
+                      </a>
+                      <a
+                        href="category/living-room.html"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Living Room</div>
+                      </a>
+                    </div>
+                    <a
+                      href="post/get-solution-for-building-construction-work-.html"
+                      className="w-inline-block"
+                    >
+                      <h2 className="blog-title">
+                        Get Solution For Building Construction Work
+                      </h2>
+                    </a>
+                    <div className="blog-item-meta">
+                      <p className="blog-date">November 23, 2021</p>
+                      <a
+                        style={{"backgroundColor": "rgb(244, 240, 236)"}}
+                        href="post/get-solution-for-building-construction-work-.html"
+                        className="blog-single-link w-inline-block"
+                      >
+                        <img
+                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                          loading="lazy"
+                          alt="Readmore Arrow"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  role="listitem"
+                  className="blog-collection-item w-dyn-item w-col w-col-4"
+                >
+                  <div
+                    data-w-id="b453cea5-4602-492e-48f6-a27248f1a32d"
+                    className="blog-item"
+                  >
+                    <div className="blog-image-wrap">
+                      <a
+                        href="post/attain-the-best-finish-for-the-kitchen-cabinets.html"
+                        className="blog-image-link w-inline-block"
+                      >
+                        <img
+                          src="../uploads-ssl.webflow.com/619cc60416b9688293f54eda/61a1be0da80aaec1a0c172c4_blog-image-small-6.jpg"
+                          loading="lazy"
+                          alt="Blog "
+                          className="blog-listing-image"
+                        />
+                      </a>
+                      <a
+                        href="category/minimalist-interior.html"
+                        className="category-link blog-category w-inline-block"
+                      >
+                        <div className="blog-category">Minimalist Interior</div>
+                      </a>
+                    </div>
+                    <a
+                      href="post/attain-the-best-finish-for-the-kitchen-cabinets.html"
+                      className="w-inline-block"
+                    >
+                      <h2 className="blog-title">
+                        Attain The Best Finish For The Kitchen Cabinets
+                      </h2>
+                    </a>
+                    <div className="blog-item-meta">
+                      <p className="blog-date">November 23, 2021</p>
+                      <a
+                        style={{"backgroundColor": "rgb(244, 240, 236)"}}
+                        href="post/attain-the-best-finish-for-the-kitchen-cabinets.html"
+                        className="blog-single-link w-inline-block"
+                      >
+                        <img
+                          src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619ccd2fd4bd67dfb2906193_link-arrow-right.svg"
+                          loading="lazy"
+                          alt="Readmore Arrow"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="call-to-action-section">
+        <div className="container w-container">
+          <div className="call-to-action-wrap">
+            <h2 className="call-to-action-title">Wanna join the interno?</h2>
+            <p className="call-to-action-content">
+              Contact Us &amp; Get a Free Consultation
+            </p>
+            <a
+              href="contact-us.html"
+              className="button-colored call-to-action-button w-button"
+            >
+              Connect With certon
+            </a>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 

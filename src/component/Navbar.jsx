@@ -1,10 +1,11 @@
 import React from "react";
+import {Link}  from 'react-router-dom'
 
 export default function Navbar() {
   return (
     <div>
-      <div class="header-section wf-section">
-        <div class="top-bar-header-area">
+      <div className="header-section wf-section">
+        <div className="top-bar-header-area">
           <div
             data-collapse="medium"
             data-animation="default"
@@ -12,78 +13,78 @@ export default function Navbar() {
             data-easing="ease"
             data-easing2="ease"
             role="banner"
-            class="navbar w-nav"
+            className="navbar w-nav"
           >
-            <div class="container w-container">
-              <a href="index.html" class="brand w-nav-brand">
+            <div className="container w-container">
+              <Link to="/" className="brand w-nav-brand">
                 <img
                   src="https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/61977e6d733ba184d23db8bc_interno.svg"
                   loading="lazy"
                   alt="Doctorate Logo"
                   height=""
                 />
-              </a>
-              <nav role="navigation" class="nav-menu w-nav-menu">
-                <a href="index.html" class="nav-link w-nav-link">
+              </Link>
+              <nav role="navigation" className="nav-menu w-nav-menu">
+                <Link to="/" className="nav-link w-nav-link">
                   Home
-                </a>
-                <a href="about-us.html" class="nav-link w-nav-link">
+                </Link>
+                <Link to="about-us" className="nav-link w-nav-link">
                   About Us
-                </a>
-                <a href="services.html" class="nav-link w-nav-link">
+                </Link>
+                <Link to="services" className="nav-link w-nav-link">
                   Services
-                </a>
+                </Link>
                 <div
                   data-hover="true"
                   data-delay="100"
-                  class="dropdown w-dropdown"
+                  className="dropdown w-dropdown"
                 >
-                  <div class="dropdown-toggle w-dropdown-toggle">
-                    <div class="dropdown-nav-link">Pages</div>
+                  <div className="dropdown-toggle w-dropdown-toggle">
+                    <div className="dropdown-nav-link">Pages</div>
                   </div>
-                  <nav class="dropdown-list w-dropdown-list">
-                    <a
-                      href="our-projects.html"
-                      class="dropdown-link w-dropdown-link"
+                  <nav className="dropdown-list w-dropdown-list">
+                    <Link
+                      to="our-projects"
+                      className="dropdown-link w-dropdown-link"
                     >
                       Our Projects
-                    </a>
-                    <a
-                      href="professionals.html"
-                      class="dropdown-link w-dropdown-link"
+                    </Link>
+                    <Link
+                      to="professionals"
+                      className="dropdown-link w-dropdown-link"
                     >
                       Professionals
-                    </a>
-                    <a
-                      href="services-single.html"
-                      class="dropdown-link w-dropdown-link"
+                    </Link>
+                    <Link
+                      to="services-single"
+                      className="dropdown-link w-dropdown-link"
                     >
                       Services Single
-                    </a>
-                    <a
-                      href="pricing-plan.html"
-                      class="dropdown-link w-dropdown-link"
+                    </Link>
+                    <Link
+                      to="pricing-plan"
+                      className="dropdown-link w-dropdown-link"
                     >
                       Pricing Plan
-                    </a>
-                    <a href="blog.html" class="dropdown-link w-dropdown-link">
+                    </Link>
+                    <Link to="blog" className="dropdown-link w-dropdown-link">
                       Blog
-                    </a>
-                    <a href="faq.html" class="dropdown-link w-dropdown-link">
+                    </Link>
+                    <Link to="faq" className="dropdown-link w-dropdown-link">
                       FAQ
-                    </a>
+                    </Link>
                   </nav>
                 </div>
-                <a
-                  href="contact-us.html"
+                <Link
+                  to="contact-us"
                   aria-current="page"
-                  class="nav-link last-child w-nav-link w--current"
+                  className="nav-link last-child w-nav-link w--current"
                 >
                   Contact Us
-                </a>
+                </Link>
               </nav>
-              <div class="menu-button w-nav-button">
-                <div class="menu-icon w-icon-nav-menu"></div>
+              <div className="menu-button w-nav-button">
+                <div className="menu-icon w-icon-nav-menu"></div>
               </div>
             </div>
           </div>
