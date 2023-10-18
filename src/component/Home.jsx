@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
+    
       <div className="hero-section">
         <div className="hero-content-wrap">
           <div className="container w-container">
